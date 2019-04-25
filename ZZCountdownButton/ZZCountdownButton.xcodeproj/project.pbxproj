@@ -15,6 +15,7 @@
 		B0CC9844227192F0009006CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0CC9842227192F0009006CC /* LaunchScreen.storyboard */; };
 		B0CC984F227192F1009006CC /* ZZCountdownButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CC984E227192F1009006CC /* ZZCountdownButtonTests.swift */; };
 		B0CC985A227192F1009006CC /* ZZCountdownButtonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CC9859227192F1009006CC /* ZZCountdownButtonUITests.swift */; };
+		B0CC986822719394009006CC /* ZZCountdownButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CC986722719394009006CC /* ZZCountdownButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		B0CC9855227192F1009006CC /* ZZCountdownButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZZCountdownButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0CC9859227192F1009006CC /* ZZCountdownButtonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZZCountdownButtonUITests.swift; sourceTree = "<group>"; };
 		B0CC985B227192F1009006CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0CC986722719394009006CC /* ZZCountdownButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZZCountdownButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		B0CC9835227192E1009006CC /* ZZCountdownButton */ = {
 			isa = PBXGroup;
 			children = (
+				B0CC986722719394009006CC /* ZZCountdownButton.swift */,
 				B0CC9836227192E1009006CC /* AppDelegate.swift */,
 				B0CC9838227192E1009006CC /* ViewController.swift */,
 				B0CC983A227192E1009006CC /* Main.storyboard */,
@@ -262,6 +265,7 @@
 				B0CC983F227192E1009006CC /* ZZCountdownButton.xcdatamodeld in Sources */,
 				B0CC9839227192E1009006CC /* ViewController.swift in Sources */,
 				B0CC9837227192E1009006CC /* AppDelegate.swift in Sources */,
+				B0CC986822719394009006CC /* ZZCountdownButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
