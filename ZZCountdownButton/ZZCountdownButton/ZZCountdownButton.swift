@@ -63,7 +63,7 @@ class ZZCountdownButton: UIButton {
     ///   - normalColor: 普通状态下的背景颜色
     ///   - countdownColor: 倒计时状态下的背景颜色
     ///   - isSMSBtn: 是否是短信验证码按钮
-    ///   - callBack: 回调
+    ///   - clickCallBack: 回调
     init(count: Int,normalColor: UIColor = UIColor.gray,countdownColor : UIColor = UIColor.lightGray,clickCallBack:ClickCallBack?) {
         super.init(frame: .zero)
         
@@ -73,6 +73,7 @@ class ZZCountdownButton: UIButton {
         recordCountSecond = countdownSecond
         self.normalColor = normalColor
         self.countdownColor = countdownColor
+        self.clickCallBack = clickCallBack
         
         backgroundColor = normalColor
     }
